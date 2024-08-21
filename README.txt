@@ -12,4 +12,8 @@ To start selenzymeRF run the bash file start_server.sh (requires user input)
 6. Build Docker images
 7. Start Docker container
 
+(Optional)
+8. If Error 13 appears (lack of access permissions to the selenzy.log file) try this command:
+sudo chown "user" -R /home/"user"/"user_folder"/selenzyme-SelenzymeRF/selenzyme2/selenzyPro/log/selenzy.log
+
 
