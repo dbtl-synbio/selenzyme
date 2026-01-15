@@ -15,7 +15,7 @@
 
 #RUN pip install --upgrade pip
 FROM continuumio/miniconda3:4.10.3
-RUN conda update -n base conda
+#RUN conda update -n base conda
 
 RUN conda install -c conda-forge python=3.6.6 \
   && conda install pip \
